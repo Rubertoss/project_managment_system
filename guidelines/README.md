@@ -52,12 +52,12 @@
 ***НАЗВА: Project Managment System***
     
 ***УЧАСНИКИ:***
-  -Vitaly Gutov: fake.gutov@gmail.com
-  -Vitaly Derachyts: vide.the.magician8@gmail.com
-  -Anna Ivankova: ann.ivankova.02@gmail.com
-  -Volodymyr Karamshuk: qazse97@ukr.net
-  -Ivan Kucherenko: indigo.dingo254@gmail.com
-  -Roman Stepaniuk: rmnstepaniuk@gmail.com
+  - Vitaly Gutov: fake.gutov@gmail.com
+  - Vitaly Derachyts: vide.the.magician8@gmail.com
+  - Anna Ivankova: ann.ivankova.02@gmail.com
+  - Volodymyr Karamshuk: qazse97@ukr.net
+  - Ivan Kucherenko: indigo.dingo254@gmail.com
+  - Roman Stepaniuk: rmnstepaniuk@gmail.com
   
 ***ПЕРЕДУМОВИ: постановка навчального завдання викладачем Болдаком А.О.***
 
@@ -65,12 +65,12 @@
 
 ***ВИКЛЮЧНІ СИТУАЦІЇ:***
 
-  -пропуск дедлайну;
-  -відміна проекту або зміна його специфікацій;
-  -помилкові технологічні рішення;
-  -невідповідність проектним стандартам, технічні несправності;
-  -розбіжності в колективі;
-  -сімейні обставини когось із учасників;
+  - пропуск дедлайну;
+  - відміна проекту або зміна його специфікацій;
+  - помилкові технологічні рішення;
+  - невідповідність проектним стандартам, технічні несправності;
+  - розбіжності в колективі;
+  - сімейні обставини когось із учасників;
   
 
 ***ОСНОВНИЙ СЦЕНАРІЙ:***
