@@ -39,6 +39,8 @@
    3. Scrum
    4. Lean
    5. Kanban
+   
+[Dashboard](https://blog.calltouch.ru/dashbord-chto-eto-takoe-dlya-chego-nuzhen-dashboard-i-kak-ego-ispolzovat/) - це розумні звіти в реальному часі, за допомогою яких керівники і менеджери розуміють, що прямо зараз відбувається з певними показниками і групами показників.
 
 
 ## Підходи та способи вирішення завдання
