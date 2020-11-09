@@ -1,18 +1,57 @@
 # Модель прецедентів
 
-В цьому файлі необхідно перелічити всі документи, розроблені в проекті та дати посилання на них.
+#### Сценарій №4
 
-*Модель прецедентів повинна містити загальні оглядові діаграми та специфікації прецедентів.*
+ID: UC_04_01
 
-*Вбудовування зображень діаграм здійснюється з використанням сервісу plantuml.com. Сервіси взаємодіють так, як зобраажено на діаграмі нижче.*
+НАЗВА: Активізувати завдання
 
-![uml](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/boldak/database_basics_template/master/src/uml/example.puml)
+УЧАСНИКИ: Розробник, Система
 
-*Для вбудовування необхідно використовувати:*
-```
-![IMAGE TITLE](http://www.plantuml.com/plantuml/proxy?cache=no&src=URL_OF_PUML_SOURCE)
-```
-Наприклад, зображена вище діаграма вбудована за допомогою:
-```
-![uml](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/boldak/database_basics_template/master/src/uml/example.puml)
-```
+ПЕРЕДУМОВИ: Тімлід відправив завдання до виконання
+
+РЕЗУЛЬТАТ: Завдання активізоване
+
+ВИКЛЮЧНІ СИТУАЦІЇ:
+
+  - EX.4.1.1 Завдання вже активізовано
+  
+ОСНОВНИЙ СЦЕНАРІЙ:
+
+![UC_04_01](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/VitaliiZZzz/project_managment_system/master/src/uml/UC_04_01)
+ 
+ID: UC_04_02
+
+НАЗВА: Переглянути список активних завдань
+
+УЧАСНИКИ: Розробник, Система
+
+ПЕРЕДУМОВИ: Відсутні
+
+РЕЗУЛЬТАТ: Надається список активних завдань
+
+ВИКЛЮЧНІ СИТУАЦІЇ:
+  - ВІДСУТНІ
+  
+ОСНОВНИЙ СЦЕНАРІЙ:
+ 
+ ![UC_04_02](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/VitaliiZZzz/project_managment_system/master/src/uml/UC_04_02)
+ 
+ID: UC_04_03
+
+НАЗВА: Відправити завдання тімліду
+
+УЧАСНИКИ: Розробник, Система
+
+ПЕРЕДУМОВИ: Розробник має виконане завдання
+
+РЕЗУЛЬТАТ: Розробник відправив завдання тімліду на перевірку
+
+ВИКЛЮЧНІ СИТУАЦІЇ:
+  - ВІДСУТНІ
+  
+ОСНОВНИЙ СЦЕНАРІЙ:
+ 
+ ![UC_04_03](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/VitaliiZZzz/project_managment_system/master/src/uml/UC_04_03)
+ 
+
