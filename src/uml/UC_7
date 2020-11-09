@@ -1,0 +1,19 @@
+@startuml
+
+ actor :Менеджер Проєкту: as PM
+  
+ usecase UC_07 as "Управління завданнями"
+
+ PM -down--> UC_07
+ 
+ usecase "Створити завдання" as UC_07_1 #FFFFFF
+ usecase "Редагувати завдання" as UC_07_2 #FFFFFF
+ usecase "Видалити завдання" as UC_07_3 #FFFFFF
+ usecase "Відправити завдання тімліду" as UC_07_4 #FFFFFF
+ 
+ UC_07_1 .up..> UC_07
+ UC_07_2 .up..> UC_07
+ UC_07_3 .up..> UC_07
+ UC_07_4 .up..> UC_07
+ 
+@enduml
