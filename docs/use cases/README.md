@@ -1,18 +1,80 @@
 # Модель прецедентів
 
-В цьому файлі необхідно перелічити всі документи, розроблені в проекті та дати посилання на них.
+![UC_7](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/VitaliiZZzz/project_managment_system/master/src/uml/UC_7)
 
-*Модель прецедентів повинна містити загальні оглядові діаграми та специфікації прецедентів.*
+#### Сценарій №
 
-*Вбудовування зображень діаграм здійснюється з використанням сервісу plantuml.com. Сервіси взаємодіють так, як зобраажено на діаграмі нижче.*
+***ID:*** UC_7_1
 
-![uml](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/boldak/database_basics_template/master/src/uml/example.puml)
+***НАЗВА:*** Створити завдання
 
-*Для вбудовування необхідно використовувати:*
-```
-![IMAGE TITLE](http://www.plantuml.com/plantuml/proxy?cache=no&src=URL_OF_PUML_SOURCE)
-```
-Наприклад, зображена вище діаграма вбудована за допомогою:
-```
-![uml](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/boldak/database_basics_template/master/src/uml/example.puml)
-```
+***УЧАСНИКИ:*** Менеджер Проекту, Система.
+
+***ПЕРЕДУМОВИ:*** Відсутні
+
+***РЕЗУЛЬТАТ:*** Нове завдання
+
+***ВИКЛЮЧНІ СИТУАЦІЇ:***
+   - EX.7.1.1. Завдання із вказаною назвою вже існує.
+
+***ОСНОВНИЙ СЦЕНАРІЙ:***
+
+![UC_7_1](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/VitaliiZZzz/project_managment_system/master/src/uml/UC_7_1)
+
+#### Сценарій №
+
+***ID:*** UC_7_2
+
+***НАЗВА:*** Редагувати завдання
+
+***УЧАСНИКИ:*** Менеджер Проекту, Система.
+
+***ПЕРЕДУМОВИ:*** Вибране завдання існує
+
+***РЕЗУЛЬТАТ:*** Зміни в завданні
+
+***ВИКЛЮЧНІ СИТУАЦІЇ:***
+   - EX.7.2.1. Завдання із вказаною назвою не знайдено.
+
+***ОСНОВНИЙ СЦЕНАРІЙ:***
+
+![UC_7_1](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/VitaliiZZzz/project_managment_system/master/src/uml/UC_7_2)
+
+#### Сценарій №
+
+***ID:*** UC_7_3
+
+***НАЗВА:*** Видалити завдання
+
+***УЧАСНИКИ:*** Менеджер Проекту, Система.
+
+***ПЕРЕДУМОВИ:*** Вибране завдання існує
+
+***РЕЗУЛЬТАТ:*** Видалене завдання
+
+***ВИКЛЮЧНІ СИТУАЦІЇ:***
+   - EX.7.3.1. Завдання із вказаною назвою не знайдено.
+
+***ОСНОВНИЙ СЦЕНАРІЙ:***
+
+![UC_7_1](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/VitaliiZZzz/project_managment_system/master/src/uml/UC_7_3)
+
+#### Сценарій №
+
+***ID:*** UC_7_4
+
+***НАЗВА:*** Відправити завдання тімліду
+
+***УЧАСНИКИ:*** Менеджер Проекту, Система.
+
+***ПЕРЕДУМОВИ:*** Вибране завдання існує
+
+***РЕЗУЛЬТАТ:*** Тімлід отримав завдання
+
+***ВИКЛЮЧНІ СИТУАЦІЇ:***
+   - EX.7.4.1. Завдання із вказаною назвою не знайдено.
+
+***ОСНОВНИЙ СЦЕНАРІЙ:***
+
+![UC_7_1](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/VitaliiZZzz/project_managment_system/master/src/uml/UC_7_4)
+
