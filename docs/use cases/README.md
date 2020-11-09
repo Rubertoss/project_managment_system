@@ -2,7 +2,7 @@
 
 ![uml](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/VitaliiZZzz/project_managment_system/master/src/uml/UC_main)
 
-####Сценарій №####
+####Сценарій №
 ***ID:*** UC_03.1
 ***Назва:*** Додавання артефакту
 ***Учасники:*** Розробник, система
@@ -12,7 +12,7 @@
 	- EX3.1.1 поле порожнє або містить невірні дані 
 ![UC_3_1](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/VitaliiZZzz/project_managment_system/master/src/uml/UC_3_1)
 
-####Сценарій №####
+####Сценарій №
 ***ID:*** UC_03.2
 ***Назва:*** Видалення артефакту
 ***Учасники:*** Розробник, система
@@ -20,7 +20,7 @@
 ***Результат:*** Артефакт видалено
 ![UC_3_2](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/VitaliiZZzz/project_managment_system/master/src/uml/UC_3_2)
 
-####Сценарій №####
+####Сценарій №
 ***ID:*** UC_03.3
 ***Назва: Модифікація артефакту
 ***Учасники:*** Розробник, система
@@ -30,7 +30,7 @@
 	- EX3.3.1 форма містить неправильно введені дані
 ![UC_3_3](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/VitaliiZZzz/project_managment_system/master/src/uml/UC_3_3)
 
-####Сценарій №####
+####Сценарій №
 ***ID:*** UC_05.1
 ***Назва:*** Додавання розробника до проєкту
 ***Учасники:*** Тімлід, система
@@ -41,7 +41,7 @@
 	- EX5.1.2 розробник уже є учасником проєкту
 ![UC_5_1](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/VitaliiZZzz/project_managment_system/master/src/uml/UC_5_1)
 
-####Сценарій №####
+####Сценарій №
 ***ID:*** UC_05.2
 ***Назва:*** Видалення розробника з проєкту
 ***Учасники:*** Тімлід, система
@@ -49,7 +49,7 @@
 ***Результат:*** Розробник видалений з проєкту
 ![UC_5_2](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/VitaliiZZzz/project_managment_system/master/src/uml/UC_5_2)
 
-####Сценарій №####
+####Сценарій №
 ***ID:*** UC_05.3
 ***Назва:*** Надання прав розробнику
 ***Учасники:*** Тімлід, система
@@ -60,7 +60,7 @@
 	- EX5.3.2 розробник уже має вказані права
 ![UC_5_3](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/VitaliiZZzz/project_managment_system/master/src/uml/UC_5_3)
 
-####Сценарій №####
+####Сценарій №
 ***ID:*** UC_05.4
 ***Назва:*** Зміна прав розробника
 ***Учасники:*** Тімлід, система
