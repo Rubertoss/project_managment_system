@@ -58,7 +58,7 @@
 ***Результат:*** Артефакт додано
 
 ***Виключні ситуації:***
-   - EX3.1.1 поле порожнє або містить невірні дані 
+   - EX.3.1.1 поле порожнє або містить невірні дані 
 	
 ![UC_3_1](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/VitaliiZZzz/project_managment_system/master/src/uml/UC_3_1)
 
@@ -74,7 +74,7 @@
 
 ***Результат:*** Артефакт видалено
 
-***ВИКЛЮЧНІ СИТУАЦІЇ:*** відсутні
+***ВИКЛЮЧНІ СИТУАЦІЇ:*** Відсутні
 
 ![UC_3_2](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/VitaliiZZzz/project_managment_system/master/src/uml/UC_3_2)
 
@@ -91,7 +91,7 @@
 ***Результат:*** Артефакт модифіковано
 
 ***Виключні ситуації:***
-   - EX3.3.1 форма містить неправильно введені дані
+   - EX.3.3.1 форма містить неправильно введені дані
 	
 ![UC_3_3](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/VitaliiZZzz/project_managment_system/master/src/uml/UC_3_3)
 
@@ -163,8 +163,8 @@
 ***Результат:*** Розробник доданий до проєкту
 
 ***Виключні ситуації:***
-   - EX5.1.1 користувач не зареєстрований
-   - EX5.1.2 розробник уже є учасником проєкту
+   - EX.5.1.1 користувач не зареєстрований
+   - EX.5.1.2 розробник уже є учасником проєкту
 	
 ![UC_5_1](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/VitaliiZZzz/project_managment_system/master/src/uml/UC_5_1)
 
@@ -180,7 +180,7 @@
 
 ***Результат:*** Розробник видалений з проєкту
 
-***ВИКЛЮЧНІ СИТУАЦІЇ:*** відсутні
+***ВИКЛЮЧНІ СИТУАЦІЇ:*** Відсутні
 
 ![UC_5_2](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/VitaliiZZzz/project_managment_system/master/src/uml/UC_5_2)
 
@@ -197,8 +197,8 @@
 ***Результат:*** Розробнику надано права
 
 ***Виключні ситуації:***
-   - EX5.3.1 розробник не доданий до проєкту
-   - EX5.3.2 розробник уже має вказані права
+   - EX.5.3.1 розробник не доданий до проєкту
+   - EX.5.3.2 розробник уже має вказані права
 	
 ![UC_5_3](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/VitaliiZZzz/project_managment_system/master/src/uml/UC_5_3)
 
@@ -215,8 +215,8 @@
 ***Результат:*** Розробнику змінено права
 
 ***Виключні ситуації:***
-   - EX5.4.1 розробник не доданий до проєкту
-   - EX5.4.2 розробник уже має вказані права
+   - EX.5.4.1 розробник не доданий до проєкту
+   - EX.5.4.2 розробник уже має вказані права
 	
 ![UC_5_4](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/VitaliiZZzz/project_managment_system/master/src/uml/UC_5_4)
 
