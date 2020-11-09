@@ -1,0 +1,33 @@
+@startuml
+usecase UC_01 as "<b>UC_01</b>\nРеєстрація \nв системі"
+usecase UC_02 as "<b>UC_02</b>\nАвторизація \nв системі"
+usecase UC_03 as "<b>UC_03</b>\nУправління артефактами"
+usecase UC_04 as "<b>UC_04</b>\nУправління\nзавданнями"
+usecase UC_05 as "<b>UC_05</b>\nУправління командою"
+usecase UC_06 as "<b>UC_06</b>\nПереглянути\nпрогрес"
+usecase UC_07 as "<b>UC_07</b>\nУправління завданнями"
+
+actor :Гість: as guest
+actor :Розробник: as developer
+actor :Тімлід: as TL
+actor :Менеджер Проєкту: as PM
+actor :Замовник: as client
+
+developer -r--> UC_03
+developer ---> UC_04
+developer -u--|> guest
+
+guest ---> UC_01
+guest ---> UC_02
+
+TL -u--|> developer
+TL ---> UC_05
+
+PM -r--|> TL
+PM -l--|> client
+PM -u--> UC_07
+
+client -u--|> guest
+client -u--> UC_06
+
+@enduml
