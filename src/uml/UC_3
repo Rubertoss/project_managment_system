@@ -1,0 +1,16 @@
+@startuml
+
+usecase UC_03 as "Управління артефактами"
+usecase UC_03.1 as "Додати артефакт" #white
+usecase UC_03.2 as "Видалити артефакт " #white
+usecase UC_03.3 as "Модифікувати артефакт" #white
+
+actor :Розробник: as developer
+
+developer ---> UC_03
+UC_03 ..> UC_03.1
+UC_03 ..> UC_03.2
+UC_03 ..> UC_03.3
+
+
+@enduml
