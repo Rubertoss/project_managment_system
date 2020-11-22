@@ -23,7 +23,7 @@ guest ---> UC_02
 TL -u--|> developer
 TL ---> UC_05
 
-PM -r--|> TL
+PM <|--r- TL
 PM -l--|> client
 PM -u--> UC_07
 
