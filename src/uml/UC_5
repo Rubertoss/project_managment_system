@@ -5,6 +5,7 @@ usecase UC_05.1 as "Додати розробника \nдо проєкту" #wh
 usecase UC_05.2 as "Видалити розробника \nз проєкту" #white
 usecase UC_05.3 as "Надати права \nрозробнику" #white
 usecase UC_05.4 as "Змінити права \nрозробника" #white
+usecase UC_05.5 as "Переглянути список \nрозробників" #white
 
 actor :Тімлід: as TL
 
@@ -13,7 +14,10 @@ UC_05 <.. UC_05.1
 UC_05 <.. UC_05.2
 UC_05 <.. UC_05.3
 UC_05 <.. UC_05.4
+UC_05 <.. UC_05.5
 UC_05.4 .left.> UC_05.3
 
 
+
 @enduml
+
