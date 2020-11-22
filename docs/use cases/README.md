@@ -6,7 +6,9 @@
 
 ![UC_5](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/VitaliiZZzz/project_managment_system/master/src/uml/UC_5)
 
-![UC_7](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/VitaliiZZzz/project_managment_system/master/src/uml/UC_7)
+![UC_6](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/VitaliiZZzz/project_managment_system/master/src/uml/UC_6)
+
+![UC_8](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/VitaliiZZzz/project_managment_system/master/src/uml/UC_8)
 
 #### Сценарій №1
 
@@ -258,7 +260,62 @@
 
 #### Сценарій №14
 
-***ID:*** UC_6
+***ID:*** UC_6_1
+
+***НАЗВА:*** Відправити завдання розробнику
+
+***УЧАСНИКИ:*** Тімлід, система
+
+***ПЕРЕДУМОВИ:*** Відстуні
+
+***РЕЗУЛЬТАТ:*** Завдання відправлено розробнику
+
+***ВИКЛЮЧНІ СИТУАЦІЇ:*** Відстуні
+
+***ОСНОВНИЙ СЦЕНАРІЙ:***
+
+![UC_6_1](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/VitaliiZZzz/project_managment_system/master/src/uml/UC_6_1)
+
+#### Сценарій №15
+
+***ID:*** UC_6_2
+
+***НАЗВА:*** Переглянути список завдань
+
+***УЧАСНИКИ:*** Тімлід, система
+
+***ПЕРЕДУМОВИ:*** Відстуні
+
+***РЕЗУЛЬТАТ:*** Надається список завдань
+
+***ВИКЛЮЧНІ СИТУАЦІЇ:*** Відстуні
+
+***ОСНОВНИЙ СЦЕНАРІЙ:***
+
+![UC_6_2](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/VitaliiZZzz/project_managment_system/master/src/uml/UC_6_2)
+
+#### Сценарій №16
+
+***ID:*** UC_6_3
+
+***НАЗВА:*** Підтвердити виконання завдання розробником
+
+***УЧАСНИКИ:*** Тімлід, система
+
+***ПЕРЕДУМОВИ:*** Розробник відправив виконане завдання
+
+***РЕЗУЛЬТАТ:*** Завдання виконане правильно
+
+***ВИКЛЮЧНІ СИТУАЦІЇ:***
+   -EX.6.3.1. Завдання виконане невірно
+
+***ОСНОВНИЙ СЦЕНАРІЙ:***
+
+![UC_6_3](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/VitaliiZZzz/project_managment_system/master/src/uml/UC_6_3)
+
+#### Сценарій №17
+
+***ID:*** UC_7
 
 ***НАЗВА:*** Перегляд прогресу
 
@@ -272,11 +329,11 @@
 
 ***ОСНОВНИЙ СЦЕНАРІЙ:***
 
-![UC_06](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/VitaliiZZzz/project_managment_system/master/src/uml/UC_06)
+![UC_07](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/VitaliiZZzz/project_managment_system/master/src/uml/UC_07)
 
-#### Сценарій №15
+#### Сценарій №18
 
-***ID:*** UC_7_1
+***ID:*** UC_8_1
 
 ***НАЗВА:*** Створити завдання
 
@@ -287,15 +344,15 @@
 ***РЕЗУЛЬТАТ:*** Нове завдання
 
 ***ВИКЛЮЧНІ СИТУАЦІЇ:***
-   - EX.7.1.1. Завдання із вказаною назвою вже існує.
+   - EX.8.1.1. Завдання із вказаною назвою вже існує.
 
 ***ОСНОВНИЙ СЦЕНАРІЙ:***
 
-![UC_7_1](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/VitaliiZZzz/project_managment_system/master/src/uml/UC_7_1)
+![UC_8_1](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/VitaliiZZzz/project_managment_system/master/src/uml/UC_8_1)
 
-#### Сценарій №16
+#### Сценарій №19
 
-***ID:*** UC_7_2
+***ID:*** UC_8_2
 
 ***НАЗВА:*** Редагувати завдання
 
@@ -306,15 +363,15 @@
 ***РЕЗУЛЬТАТ:*** Зміни в завданні
 
 ***ВИКЛЮЧНІ СИТУАЦІЇ:***
-   - EX.7.2.1. Завдання із вказаною назвою не знайдено.
+   - EX.8.2.1. Завдання із вказаною назвою не знайдено.
 
 ***ОСНОВНИЙ СЦЕНАРІЙ:***
 
-![UC_7_1](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/VitaliiZZzz/project_managment_system/master/src/uml/UC_7_2)
+![UC_8_1](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/VitaliiZZzz/project_managment_system/master/src/uml/UC_8_2)
 
-#### Сценарій №17
+#### Сценарій №20
 
-***ID:*** UC_7_3
+***ID:*** UC_8_3
 
 ***НАЗВА:*** Видалити завдання
 
@@ -325,15 +382,15 @@
 ***РЕЗУЛЬТАТ:*** Видалене завдання
 
 ***ВИКЛЮЧНІ СИТУАЦІЇ:***
-   - EX.7.3.1. Завдання із вказаною назвою не знайдено.
+   - EX.8.3.1. Завдання із вказаною назвою не знайдено.
 
 ***ОСНОВНИЙ СЦЕНАРІЙ:***
 
-![UC_7_1](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/VitaliiZZzz/project_managment_system/master/src/uml/UC_7_3)
+![UC_8_1](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/VitaliiZZzz/project_managment_system/master/src/uml/UC_8_3)
 
-#### Сценарій №18
+#### Сценарій №21
 
-***ID:*** UC_7_4
+***ID:*** UC_8_4
 
 ***НАЗВА:*** Відправити завдання тімліду
 
@@ -344,9 +401,9 @@
 ***РЕЗУЛЬТАТ:*** Тімлід отримав завдання
 
 ***ВИКЛЮЧНІ СИТУАЦІЇ:***
-   - EX.7.4.1. Завдання із вказаною назвою не знайдено.
+   - EX.8.4.1. Завдання із вказаною назвою не знайдено.
 
 ***ОСНОВНИЙ СЦЕНАРІЙ:***
 
-![UC_7_1](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/VitaliiZZzz/project_managment_system/master/src/uml/UC_7_4)
+![UC_8_1](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/VitaliiZZzz/project_managment_system/master/src/uml/UC_8_4)
 
