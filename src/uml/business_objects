@@ -34,7 +34,7 @@
   Access "(0,*)"-r-"(1,1)" User
   Access "(0,*)"-l-"(1,1)" Project
   Project "(1,1)"-l-"(0,*)" Task
-  Task "(1,1)1"-d-"(0,*)" Artifact
+  Task "(1,1)"-d-"(0,*)" Artifact
   
   Customer ..> Role : instanceOf
   Project_manager ..> Role : instanceOf
