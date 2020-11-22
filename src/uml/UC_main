@@ -1,6 +1,6 @@
 @startuml
 usecase UC_01 as "<b>UC_01</b>\nРеєстрація \nв системі"
-usecase UC_02 as "<b>UC_02</b>\nАвторизація \nв системі"
+usecase UC_02 as "<b>UC_02</b>\nАвтентифікація \nв системі"
 usecase UC_03 as "<b>UC_03</b>\nУправління артефактами"
 usecase UC_04 as "<b>UC_04</b>\nУправління\nзавданнями"
 usecase UC_05 as "<b>UC_05</b>\nУправління командою"
