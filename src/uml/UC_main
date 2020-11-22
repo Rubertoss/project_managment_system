@@ -4,8 +4,9 @@ usecase UC_02 as "<b>UC_02</b>\nАвтентифікація \nв системі
 usecase UC_03 as "<b>UC_03</b>\nУправління артефактами"
 usecase UC_04 as "<b>UC_04</b>\nУправління\nзавданнями"
 usecase UC_05 as "<b>UC_05</b>\nУправління командою"
-usecase UC_06 as "<b>UC_06</b>\nПереглянути\nпрогрес"
-usecase UC_07 as "<b>UC_07</b>\nУправління завданнями"
+usecase UC_06 as "<b>UC_06</b>\nУправління завданнями"
+usecase UC_07 as "<b>UC_07</b>\nПереглянути\nпрогрес"
+usecase UC_08 as "<b>UC_08</b>\nУправління завданнями"
 
 actor :Гість: as guest
 actor :Розробник: as developer
@@ -22,12 +23,13 @@ guest ---> UC_02
 
 TL -u--|> developer
 TL ---> UC_05
+TL ---> UC_06
 
 PM <|--r- TL
 PM -l--|> client
-PM -u--> UC_07
+PM -u--> UC_08
 
 client -u--|> guest
-client -u--> UC_06
+client -u--> UC_07
 
 @enduml
