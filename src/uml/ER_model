@@ -2,7 +2,8 @@
 entity User <<ENTITY>> {
     email
     password
-    username
+    name
+    activationKey
     status
   }
   
@@ -15,12 +16,24 @@ entity User <<ENTITY>> {
     description
   }
   
+  entity Metadata <<ENTITY>> {
+    key
+    value
+  }
+  
+  
   entity Task <<ENTITY>> {
     name
-    desctiption
-    date_of_creation
+    description
     deadline
-    status
+  }
+  
+  entity Action <<ENTITY>> {
+    name
+    description
+    planedAt: DATETIME
+    actedAt: DATETIME
+    status 
   }
   
   entity Artifact <<ENTITY>> {
@@ -33,5 +46,8 @@ entity User <<ENTITY>> {
     Access "(0,*)"--"(1,1)" Project
     Task "(0,*)"-u-"(1,1)" Project
     Task "(0,*)"--"(1,1)" Artifact
-  
+    Action "(0,*)"--"(1,1)" Task
+    Action "(0,*)"-r-"(1,1)" User
+    Metadata "(0,*)"-r-"(1,1)" Project
+
 @enduml
