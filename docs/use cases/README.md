@@ -6,75 +6,85 @@
 
 ![UC_5](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/VitaliiZZzz/project_managment_system/master/src/uml/UC_5)
 
-![UC_7](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/VitaliiZZzz/project_managment_system/master/src/uml/UC_7)
+![UC_6](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/VitaliiZZzz/project_managment_system/master/src/uml/UC_6)
+
+![UC_8](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/VitaliiZZzz/project_managment_system/master/src/uml/UC_8)
 
 #### Сценарій №1
 
 ***ID:*** UC_1
 
-***Назва:*** Реєстрація в системі
+***НАЗВА:*** Реєстрація в системі
 
-***Учасники:*** Гість, система
+***УЧАСНИКИ:*** Гість, система
 
-***Передумови:*** Відсутні
+***ПЕРЕДУМОВИ:*** Відсутні
 
-***Результат:*** Створення облікового запису користувача
+***РЕЗУЛЬТАТ:*** Створення облікового запису користувача
 
-***Виключні ситуації:***
+***ВИКЛЮЧНІ СИТУАЦІЇ:***
    - EX.1.1 існують незаповнені поля
    - EX.1.2 вже створений акаунт за введеною адресою пошти
    - EX.1.3 вже створений акаунт із введеним юзернеймом
-	
+
+***ОСНОВНИЙ СЦЕНАРІЙ:***
+
 ![UC_01](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/VitaliiZZzz/project_managment_system/master/src/uml/UC_01)
 
 #### Сценарій №2
 
 ***ID:*** UC_2
 
-***Назва:*** Авторизація в системі
+***НАЗВА:*** Автентифікація в системі
 
-***Учасники:*** Гість, система
+***УЧАСНИКИ:*** Гість, система
 
-***Передумови:*** Створення облікового запису користувача
+***ПЕРЕДУМОВИ:*** Створення облікового запису користувача
 
-***Результат:*** Авторизація користувача в системі
+***РЕЗУЛЬТАТ:*** Автентифікація користувача в системі
 
-***Виключні ситуації:***
+***ВИКЛЮЧНІ СИТУАЦІЇ:***
    - EX.2.1 Існують незаповнені поля
    - EX.2.2 Помилково введене ім'я користувача або (та) пароль
-	
+
+***ОСНОВНИЙ СЦЕНАРІЙ:***
+
 ![UC_02](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/VitaliiZZzz/project_managment_system/master/src/uml/UC_02)
 
 #### Сценарій №3
 
 ***ID:*** UC_3_1
 
-***Назва:*** Додавання артефакту
+***НАЗВА:*** Додавання артефакту
 
-***Учасники:*** Розробник, система
+***УЧАСНИКИ:*** Розробник, система
 
-***Передумови:*** Відсутні
+***ПЕРЕДУМОВИ:*** Відсутні
 
-***Результат:*** Артефакт додано
+***РЕЗУЛЬТАТ:*** Артефакт додано
 
-***Виключні ситуації:***
+***ВИКЛЮЧНІ СИТУАЦІЇ:***
    - EX.3.1.1 поле порожнє або містить невірні дані 
-	
+
+***ОСНОВНИЙ СЦЕНАРІЙ:***
+
 ![UC_3_1](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/VitaliiZZzz/project_managment_system/master/src/uml/UC_3_1)
 
 #### Сценарій №4
 
 ***ID:*** UC_3_2
 
-***Назва:*** Видалення артефакту
+***НАЗВА:*** Видалення артефакту
 
-***Учасники:*** Розробник, система
+***УЧАСНИКИ:*** Розробник, система
 
-***Передумови:*** Артефакт існує в системі
+***ПЕРЕДУМОВИ:*** Артефакт існує в системі
 
-***Результат:*** Артефакт видалено
+***РЕЗУЛЬТАТ:*** Артефакт видалено
 
 ***ВИКЛЮЧНІ СИТУАЦІЇ:*** Відсутні
+
+***ОСНОВНИЙ СЦЕНАРІЇ:***
 
 ![UC_3_2](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/VitaliiZZzz/project_managment_system/master/src/uml/UC_3_2)
 
@@ -82,17 +92,19 @@
 
 ***ID:*** UC_3_3
 
-***Назва:*** Модифікація артефакту
+***НАЗВА:*** Модифікація артефакту
 
-***Учасники:*** Розробник, система
+***УЧАСНИКИ:*** Розробник, система
 
-***Передумови:*** Артефакт існує в системі
+***ПЕРЕДУМОВИ:*** Артефакт існує в системі
 
-***Результат:*** Артефакт модифіковано
+***РЕЗУЛЬТАТ:*** Артефакт модифіковано
 
-***Виключні ситуації:***
+***ВИКЛЮЧНІ СИТУАЦІЇ::***
    - EX.3.3.1 форма містить неправильно введені дані
-	
+   
+***ОСНОВНИЙ СЦЕНАРІЙ:***
+
 ![UC_3_3](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/VitaliiZZzz/project_managment_system/master/src/uml/UC_3_3)
 
 #### Сценарій №6
@@ -154,33 +166,37 @@
 
 ***ID:*** UC_5_1
 
-***Назва:*** Додавання розробника до проєкту
+***НАЗВА:*** Додавання розробника до проєкту
 
-***Учасники:*** Тімлід, система
+***УЧАСНИКИ:*** Тімлід, система
 
-***Передумови:*** Користувач зареєстрований у системі
+***ПЕРЕДУМОВИ:*** Користувач зареєстрований у системі
 
-***Результат:*** Розробник доданий до проєкту
+***РЕЗУЛЬТАТ:*** Розробник доданий до проєкту
 
-***Виключні ситуації:***
+***ВИКЛЮЧНІ СИТУАЦІЇ:***
    - EX.5.1.1 користувач не зареєстрований
    - EX.5.1.2 розробник уже є учасником проєкту
-	
+   
+***ОСНОВНИЙ СЦЕНАРІЇ:***
+
 ![UC_5_1](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/VitaliiZZzz/project_managment_system/master/src/uml/UC_5_1)
 
 #### Сценарій №10
 
 ***ID:*** UC_5_2
 
-***Назва:*** Видалення розробника з проєкту
+***НАЗВА:*** Видалення розробника з проєкту
 
-***Учасники:*** Тімлід, система
+***УЧАСНИКИ:*** Тімлід, система
 
-***Передумови:*** Розробник є учасником проєкту
+***ПЕРЕДУМОВИ:*** Розробник є учасником проєкту
 
-***Результат:*** Розробник видалений з проєкту
+***РЕЗУЛЬТАТ:*** Розробник видалений з проєкту
 
 ***ВИКЛЮЧНІ СИТУАЦІЇ:*** Відсутні
+
+***ОСНОВНИЙ СЦЕНАРІЇ:***
 
 ![UC_5_2](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/VitaliiZZzz/project_managment_system/master/src/uml/UC_5_2)
 
@@ -188,57 +204,136 @@
 
 ***ID:*** UC_5_3
 
-***Назва:*** Надання прав розробнику
+***НАЗВА:*** Надання прав розробнику
 
-***Учасники:*** Тімлід, система
+***УЧАСНИКИ:*** Тімлід, система
 
-***Передумови:*** Розробник є учасником проєкту
+***ПЕРЕДУМОВИ:*** Розробник є учасником проєкту
 
-***Результат:*** Розробнику надано права
+***РЕЗУЛЬТАТ:*** Розробнику надано права
 
-***Виключні ситуації:***
+***ВИКЛЮЧНІ СИТУАЦІЇ:***
    - EX.5.3.1 розробник не доданий до проєкту
    - EX.5.3.2 розробник уже має вказані права
-	
+   
+***ОСНОВНИЙ СЦЕНАРІЇ:***
+
 ![UC_5_3](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/VitaliiZZzz/project_managment_system/master/src/uml/UC_5_3)
 
 #### Сценарій №12
 
 ***ID:*** UC_5_4
 
-***Назва:*** Зміна прав розробника
+***НАЗВА:*** Зміна прав розробника
 
-***Учасники:*** Тімлід, система
+***УЧАСНИКИ:*** Тімлід, система
 
-***Передумови:*** Розробник є учасником проєкту
+***ПЕРЕДУМОВИ:*** Розробник є учасником проєкту
 
-***Результат:*** Розробнику змінено права
+***РЕЗУЛЬТАТИ:*** Розробнику змінено права
 
-***Виключні ситуації:***
+***ВИКЛЮЧНІ СИТУАЦІЇ:***
    - EX.5.4.1 розробник не доданий до проєкту
    - EX.5.4.2 розробник уже має вказані права
-	
+   
+***ОСНОВНИЙ СЦЕНАРІЇ:***
+
 ![UC_5_4](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/VitaliiZZzz/project_managment_system/master/src/uml/UC_5_4)
 
 #### Сценарій №13
 
-***ID:*** UC_6
+***ID:*** UC_5_5
 
-***Назва:*** Перегляд прогресу
+***НАЗВА:*** Перегляд списку розробників
 
-***Учасники:*** Замовник, система
+***УЧАСНИКИ:*** Тімлід, система
 
-***Передумови:*** Відсутні
+***ПЕРЕДУМОВИ:*** Відсутні
 
-***Результат:*** Успішний перегляд прогресу замовником
+***РЕЗУЛЬТАТ:*** Надається список розробників
 
-***Виключні ситуації:*** Відсутні
-	
-![UC_06](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/VitaliiZZzz/project_managment_system/master/src/uml/UC_06)
+***ВИКЛЮЧНІ СИТУАЦІЇ:*** Відсутні
+
+***ОСНОВНИЙ СЦЕНАРІЙ:***
+
+![UC_5_5](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/VitaliiZZzz/project_managment_system/master/src/uml/UC_5_5)
 
 #### Сценарій №14
 
-***ID:*** UC_7_1
+***ID:*** UC_6_1
+
+***НАЗВА:*** Відправити завдання розробнику
+
+***УЧАСНИКИ:*** Тімлід, система
+
+***ПЕРЕДУМОВИ:*** Відстуні
+
+***РЕЗУЛЬТАТ:*** Завдання відправлено розробнику
+
+***ВИКЛЮЧНІ СИТУАЦІЇ:*** Відстуні
+
+***ОСНОВНИЙ СЦЕНАРІЙ:***
+
+![UC_6_1](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/VitaliiZZzz/project_managment_system/master/src/uml/UC_6_1)
+
+#### Сценарій №15
+
+***ID:*** UC_6_2
+
+***НАЗВА:*** Переглянути список завдань
+
+***УЧАСНИКИ:*** Тімлід, система
+
+***ПЕРЕДУМОВИ:*** Відстуні
+
+***РЕЗУЛЬТАТ:*** Надається список завдань
+
+***ВИКЛЮЧНІ СИТУАЦІЇ:*** Відстуні
+
+***ОСНОВНИЙ СЦЕНАРІЙ:***
+
+![UC_6_2](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/VitaliiZZzz/project_managment_system/master/src/uml/UC_6_2)
+
+#### Сценарій №16
+
+***ID:*** UC_6_3
+
+***НАЗВА:*** Підтвердити виконання завдання розробником
+
+***УЧАСНИКИ:*** Тімлід, система
+
+***ПЕРЕДУМОВИ:*** Розробник відправив виконане завдання
+
+***РЕЗУЛЬТАТ:*** Завдання виконане правильно
+
+***ВИКЛЮЧНІ СИТУАЦІЇ:***
+   - EX.6.3.1. Завдання виконане невірно
+
+***ОСНОВНИЙ СЦЕНАРІЙ:***
+
+![UC_6_3](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/VitaliiZZzz/project_managment_system/master/src/uml/UC_6_3)
+
+#### Сценарій №17
+
+***ID:*** UC_7
+
+***НАЗВА:*** Перегляд прогресу
+
+***УЧАСНИКИ:*** Замовник, система
+
+***ПЕРЕДУМОВИ:*** Відсутні
+
+***РЕЗУЛЬТАТ:*** Успішний перегляд прогресу замовником
+
+***ВИКЛЮЧНІ СИТУАЦІЇ:*** Відсутні
+
+***ОСНОВНИЙ СЦЕНАРІЙ:***
+
+![UC_07](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/VitaliiZZzz/project_managment_system/master/src/uml/UC_07)
+
+#### Сценарій №18
+
+***ID:*** UC_8_1
 
 ***НАЗВА:*** Створити завдання
 
@@ -249,15 +344,15 @@
 ***РЕЗУЛЬТАТ:*** Нове завдання
 
 ***ВИКЛЮЧНІ СИТУАЦІЇ:***
-   - EX.7.1.1. Завдання із вказаною назвою вже існує.
+   - EX.8.1.1. Завдання із вказаною назвою вже існує.
 
 ***ОСНОВНИЙ СЦЕНАРІЙ:***
 
-![UC_7_1](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/VitaliiZZzz/project_managment_system/master/src/uml/UC_7_1)
+![UC_8_1](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/VitaliiZZzz/project_managment_system/master/src/uml/UC_8_1)
 
-#### Сценарій №15
+#### Сценарій №19
 
-***ID:*** UC_7_2
+***ID:*** UC_8_2
 
 ***НАЗВА:*** Редагувати завдання
 
@@ -268,15 +363,15 @@
 ***РЕЗУЛЬТАТ:*** Зміни в завданні
 
 ***ВИКЛЮЧНІ СИТУАЦІЇ:***
-   - EX.7.2.1. Завдання із вказаною назвою не знайдено.
+   - EX.8.2.1. Завдання із вказаною назвою не знайдено.
 
 ***ОСНОВНИЙ СЦЕНАРІЙ:***
 
-![UC_7_1](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/VitaliiZZzz/project_managment_system/master/src/uml/UC_7_2)
+![UC_8_1](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/VitaliiZZzz/project_managment_system/master/src/uml/UC_8_2)
 
-#### Сценарій №16
+#### Сценарій №20
 
-***ID:*** UC_7_3
+***ID:*** UC_8_3
 
 ***НАЗВА:*** Видалити завдання
 
@@ -287,15 +382,15 @@
 ***РЕЗУЛЬТАТ:*** Видалене завдання
 
 ***ВИКЛЮЧНІ СИТУАЦІЇ:***
-   - EX.7.3.1. Завдання із вказаною назвою не знайдено.
+   - EX.8.3.1. Завдання із вказаною назвою не знайдено.
 
 ***ОСНОВНИЙ СЦЕНАРІЙ:***
 
-![UC_7_1](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/VitaliiZZzz/project_managment_system/master/src/uml/UC_7_3)
+![UC_8_1](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/VitaliiZZzz/project_managment_system/master/src/uml/UC_8_3)
 
-#### Сценарій №17
+#### Сценарій №21
 
-***ID:*** UC_7_4
+***ID:*** UC_8_4
 
 ***НАЗВА:*** Відправити завдання тімліду
 
@@ -306,9 +401,9 @@
 ***РЕЗУЛЬТАТ:*** Тімлід отримав завдання
 
 ***ВИКЛЮЧНІ СИТУАЦІЇ:***
-   - EX.7.4.1. Завдання із вказаною назвою не знайдено.
+   - EX.8.4.1. Завдання із вказаною назвою не знайдено.
 
 ***ОСНОВНИЙ СЦЕНАРІЙ:***
 
-![UC_7_1](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/VitaliiZZzz/project_managment_system/master/src/uml/UC_7_4)
+![UC_8_1](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/VitaliiZZzz/project_managment_system/master/src/uml/UC_8_4)
 
