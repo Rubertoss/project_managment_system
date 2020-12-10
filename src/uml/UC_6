@@ -1,0 +1,15 @@
+@startuml
+actor :Тімлід: as TL
+usecase UC_6 as "Управління завданнями"
+usecase UC_6.1 as "Переглянути список \nзавдань" #white
+usecase UC_6.2 as "Відправити завдання \nрозробнику" #white
+usecase UC_6.3 as "Підтвердити виконання \nзавдання розробником" #white
+usecase UC_6.4 as "Повернути завдання \nрозробнику" #white
+
+TL ---> UC_6
+UC_6 <.. UC_6.1
+UC_6 <.. UC_6.2
+UC_6 <.. UC_6.3
+UC_6 <.. UC_6.4
+UC_6.4 .left.> UC_6.2
+@enduml
