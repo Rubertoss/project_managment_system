@@ -1,0 +1,31 @@
+{
+  "name": "progmark",
+  "version": "1.0.0",
+  "description": "СУП \"Progmark\" - майбутній веб-сервіс для розробки програмного забезпечення та організації роботи розробників.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "dependencies": {
+    "cli-table3": "^0.6.0",
+    "chalk": "^4.1.0",
+    "lodash-node": "^3.10.2",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.3.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VitaliiZZzz/project_managment_system.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VitaliiZZzz/project_managment_system/issues"
+  },
+  "homepage": "https://github.com/VitaliiZZzz/project_managment_system#readme"
+}

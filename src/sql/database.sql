@@ -1,3 +1,4 @@
+CREATE DATABASE progmark;
 USE progmark;
 CREATE TABLE User
 (
